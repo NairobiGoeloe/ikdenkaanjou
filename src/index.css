@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@theme {
+  /* Hoofdkleuren */
+  --color-primary: #3E7C9E;
+  --color-secondary: #C0E3F6;
+  --color-background: #E8F7FF;
+
+  /* Belangrijke items */
+  --color-important: #A64598;
+  --color-accent: #F8E9FF;
+  --color-glow: #FDBCEF;
+
+  /* Statuskleuren */
+  --color-success: #3BBC57;
+  --color-warning: #FFC300;
+
+  /* Grijstinten */
+  --color-body: #425466;
+  --color-subtext: #5A6B7A;
+  --color-placeholder: #7C8B98;
+  --color-lightgrey: #D9E1E7;
+
+    /* Schaduw */
+  --shadow-soft: 1px 1px 2px 0px var(--color-lightgrey);
+  --shadow-default: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-glow-blue: 0px 0px 10px 0px var(--color-secondary);
+  --shadow-glow-small-blue: 0px 0px 5px 0px var(--color-secondary);
+  --shadow-glow-bright-blue: 0px -4px 10px 0px var(--color-secondary);
+  --shadow-glow-pink: 0px 0px 10px 0px var(--color-glow);
+
+  /* font */
+    --font-sans: "Nunito", sans-serif;
+}
